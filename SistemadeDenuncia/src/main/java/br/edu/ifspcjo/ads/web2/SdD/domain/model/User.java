@@ -48,7 +48,7 @@ public class User {
 	@NotNull
 	private String phone;
 	@NotNull
-	private String addres;
+	private String address;
 	@NotNull
 	private String neighborhood;
 	@NotNull
@@ -115,12 +115,12 @@ public class User {
 		this.phone = phone;
 	}
 
-	public String getAddres() {
-		return addres;
+	public String getAddress() {
+		return address;
 	}
 
-	public void setAddres(String addres) {
-		this.addres = addres;
+	public void setAddress(String address) {
+		this.address = address;
 	}
 
 	public String getNeighborhood() {

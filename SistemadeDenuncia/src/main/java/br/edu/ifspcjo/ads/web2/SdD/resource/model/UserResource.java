@@ -43,10 +43,11 @@ public class UserResource {
 		user1.setEmail("fernandoduarte@ifsp.edu.br");
 		user1.setPassword("cjoweb3");
 		user1.setBirthDate(LocalDate.of(1975, 11, 16));
-		user1.setAddres("Rua dos Banks 800");
+		user1.setAddress("Rua dos Banks 800");
 		user1.setNeighborhood("Uberlandia");
 		user1.setCountry("Brasil");
 		user1.setGender(Gender.MASCULINO);
+		user1.setPhone(null);
 		user1.setActive(true);
 
 		var user2 = new User();
@@ -55,10 +56,11 @@ public class UserResource {
 		user2.setEmail("adrianasantos@ifsp.edu.br");
 		user2.setPassword("adriana");
 		user2.setBirthDate(LocalDate.of(1980, 1, 1));
-		user2.setAddres("Rua dos Bobos 0");
+		user2.setAddress("Rua dos Bobos 0");
 		user2.setNeighborhood("Lugar Nenhum");
 		user2.setCountry("Brasil");
 		user2.setGender(Gender.FEMININO);
+		user2.setPhone(null);
 		user2.setActive(true);
 
 		return List.of(user1, user2);
