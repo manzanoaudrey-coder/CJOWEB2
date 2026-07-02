@@ -2,7 +2,7 @@ package br.edu.ifspcjo.ads.web2.SdD.domain.model;
 
 public enum DenunciationType {
 	
-    MAUSTRATOSAOSANIMAIS  ("Maus Tratos aos Animais"),
+    MAUSTRATOSANIMAIS  ("Maus Tratos aos Animais"),
     ROUBO ("Roubo"),
     ASSASSINATO ("Assassinato"),
     ABUSOSEXUAL ("Abuso Sexual");

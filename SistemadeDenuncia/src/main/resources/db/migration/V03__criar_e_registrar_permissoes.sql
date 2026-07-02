@@ -12,8 +12,8 @@ CREATE TABLE user_permission (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 -- admin
-INSERT INTO user (id, name, email, password, birth_date, gender, active) 
-	values (3, 'Administrador', 'admin@ifsp.edu.br', '$2a$10$X607ZPhQ4EgGNaYKt3n4SONjIv9zc.VMWdEuhCuba7oLAL5IvcL5.', '2000-01-01', 'MASCULINO', 1);
+INSERT INTO user (id, name, email, password, birth_date, gender, active, address, neighborhood, country, phone) 
+	values (3, 'Administrador', 'admin@ifsp.edu.br', '$2a$10$X607ZPhQ4EgGNaYKt3n4SONjIv9zc.VMWdEuhCuba7oLAL5IvcL5.', '2000-01-01', 'FEMININO', 1, 'Rua das Flores 0800', 'Bairro Rosa', 'Brasil', '11981224615');
 
 -- user
 INSERT INTO permission (id, description) values 
